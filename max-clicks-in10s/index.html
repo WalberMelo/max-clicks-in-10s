@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/functions.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="logo"></div>
+            <img class="mainLogo" src="/media/Logo_low.png" alt="logo">
+
+        </header>
+
+        <main class="main">
+
+            <section class="windows-desktop" id="windows-desktop">
+                <div class="terminal-screen" id="terminal-screen">
+
+                    <div class="terminal-content" id="terminal-content">
+                        <div class="typing">
+                            <h1>Important message</h1>
+                        </div>
+                        <div class="terminal">
+                            <p class="terminal-text" id="mytext"></p>
+                        </div>
+                    </div>
+                    <button class="start-btn" id="start-btn">start</button>
+                </div>
+            </section>
+            <br>
+            <section class="registration-screen" id="registration-screen">
+                <h2>CONNECTION ESTABLISHED</h2><br>
+                <div class="box--outer">
+                    <div class="box">
+                        <div class="box--inner">
+                            <div class="content">
+                                <div class="holder">
+                                    <b>You have Enter QUADRA</b> — the high-performance virus that will destroy
+                                    all&nbsp;your&nbsp;files. Please enter your
+                                    credentials to try to stop the virus.
+                                    <br>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col col__left label">
+                                            Enter your Nickname:
+                                        </div>
+                                        <div class="col col__center">
+                                            <input type="text" id="login" minlength="3" maxlength="10">
+                                        </div>
+                                    </div>
+                                    <!-- <b class="flash">ACCESS DENIED</b> -->
+                                    <div class="row">
+                                        <button type="submit" id="login-btn" name="submit">[login]</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="game-area" id="game-area">
+                <div class="virus" id="virus">
+                    <img src="/media/JOSE(1).gif" alt="virus" id="virus-image">
+                </div>
+                <div class="timer" id="timer"><span>10</span></div>
+            </section>
+
+            <section class="win-screen" id="win-screen">
+                <div class="noise-win"></div>
+                <div class="overlay"></div>
+                <div class="win-terminal">
+                    <h2>Congratulations <span class="errorcode">!!</span></h2>
+                    <p class="output">The virus was defeated.</p>
+                    <p class="output">Please try to <a href="#1">try again</a> or <a href="#2">return to the
+                            homepage</a>.</p>
+                    <p class="output">Good luck.</p>
+                </div>
+            </section>
+            </section>
+
+            <section class="lose-screen" id="lose-screen">
+                <div class="noise-lost"></div>
+                <div class="overlay"></div>
+                <div class="lose-terminal">
+                    <h2>Error <span class="errorcode">404</span></h2>
+                    <p class="output">The virus wasn't defeated.</p>
+                    <p class="output">Please try to <a href="#1" id="try-again">try again</a> or <a href="#2"
+                            id="home-page">return to the homepage</a>.</p>
+                    <p class="output">Good luck.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+
+            <section class="live-data" id="live-data"><br>
+                <div class="username">
+                    <h4>User Name</h4><br>
+                    <div class="nickname" id="user-name">
+                    </div>
+                </div>
+                <br><br>
+                <div class="live-score" id="live-score">
+                    <h4>SCORE!</h4><br>
+                    <div class="score">0</div>
+                </div><br>
+            </section>
+
+            <section class="ranking" id="ranking">
+
+                <h2 class="scoreboard" id="score-board">Score Board</h2>
+                <br><br>
+                <div id="highScoreList">
+                    <div class="highScore" id="first-place">
+                        <span>🥇</span><span>Pedro</span>
+                    </div>
+
+                    <div class="highScore" id="seocnd-place">
+                        <span>🥈</span><span>Juan</span>
+                    </div>
+
+                    <div class="highScore" id="third-place">
+                        <span>🥉</span><span>Raul</span>
+                    </div>
+
+                    <div class="highScore" id="forth-place">
+                        <span>💩</span><span>Benito</span>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
