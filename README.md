@@ -25,19 +25,19 @@ To defeat the virus you need to hit him, but be careful because it is very elusi
 
 - Once the game finish:
     - there is a rank:
-      - try to be the number one
-      - no cheating!!
+      - Try to be the number one
+      - No cheating!!
 
 # Preview:
 ![image](https://user-images.githubusercontent.com/81560312/165539968-dbd9d308-efe2-4f45-96f3-22f0403438c8.png)
 
-# Meet the Virus:
+# Delete the Virus:
 ![image](https://user-images.githubusercontent.com/81560312/165540256-51712939-f7c1-45cc-b6f9-d33470b1afca.png)
 
 # Ranking:
 ![image](https://user-images.githubusercontent.com/81560312/165540041-eef7daf9-a06e-48ea-b464-8494f0018fc3.png)
 
-# There is a Winner?? 
+# Are There a Winner? 
 ![image](https://user-images.githubusercontent.com/81560312/165540757-e9a35bce-aa83-4e28-a7ad-471f54ffc8e2.png)
 
 Some say that it is a myth, others that they have actually seen the victory screen, but how to know? you will have to find out for yourself and try to defeat the virus before it wins over you,
